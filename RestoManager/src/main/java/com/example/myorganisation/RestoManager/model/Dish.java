@@ -22,6 +22,6 @@ public class Dish {
     private Long price;
 
     @Enumerated(EnumType.STRING)
-    private DishCategory dishCategory;
+    private DishCategory Category;
 
 }
